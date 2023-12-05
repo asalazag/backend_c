@@ -1,1 +1,0 @@
-from .kpi_negados import *

@@ -21,9 +21,4 @@ from wmsAdapter.urls import *
 from siesa.urls import *
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    re_path(r'^', include(urlpatternsBack)),
-    re_path(r'^', include(urlpatternsGuias)),
-    re_path(r'^wms/', include(wms_endpoints)),
-    re_path(r'^siesa/', include(urlpatternsSiesa)),
 ]

@@ -1,0 +1,2 @@
+from .completar_orden_despacho import completar_orden_despacho
+from .completar_orden_compra import completar_orden_compra
